@@ -1,0 +1,21 @@
+{
+  "name": "chippy",
+  "version": "1.0.0",
+  "description": "A simple CHIP-8 emulator",
+  "scripts": {
+    "dev": "webpack --mode development --output ./public/app.js",
+    "production": "webpack --mode production --output ./public/app.js",
+    "serve": "http-server"
+  },
+  "author": "Ivo Nunes <ivonunes@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "http-server": "^0.11.1",
+    "standard": "^12.0.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
